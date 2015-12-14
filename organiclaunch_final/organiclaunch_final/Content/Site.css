@@ -1,14 +1,23 @@
 ﻿body {
 }
 
-div.organic_jumbotron {
+.cover-slides {
     margin-bottom: 0;
-    background-image: url('img/farmer-540658_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    color:#fff;
+    color: #fff;
 }
+
+.cover-slides h1{margin:0;}
+.apples{
+    background-image: url('img/L8XDQ7077F.jpg');
+}
+
+.oranges {
+    background-image: url('img/farmer-540658_1920.jpg');
+}
+
 div.navbar-inverse{border-radius:0;}
 .logo{float:left;}
 img{max-width:100%; height:auto;}
