@@ -13,5 +13,29 @@ namespace organiclaunch_final.Controllers
         {
             return View();
         }
+
+        // GET: Home
+        public ActionResult Meat()
+        {
+            return View();
+        }
+
+        // GET: Home
+        public ActionResult Produce()
+        {
+            return View();
+        }
+
+        // GET: Home
+        public ActionResult Fruit()
+        {
+            return View();
+        }
+
+        // GET: Home
+        public ActionResult Vegetables()
+        {
+            return View();
+        }
     }
 }
