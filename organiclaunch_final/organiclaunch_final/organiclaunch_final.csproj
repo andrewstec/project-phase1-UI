@@ -140,6 +140,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
@@ -187,6 +188,7 @@
     <Content Include="Views\Home\Produce.cshtml" />
     <Content Include="Views\Home\Vegetables.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
