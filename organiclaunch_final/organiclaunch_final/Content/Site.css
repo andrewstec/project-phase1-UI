@@ -4,22 +4,27 @@ img{
     max-width:100%;
     height:auto;
 }
-.cover-slides {
+div.cover-slides {
     margin-bottom: 0;
+    background-image: url('img/L8XDQ7077F.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    color: #fff;
 }
-
-.cover-slides h1{margin:0;}
-.apples{
-    background-image: url('img/L8XDQ7077F.jpg');
+div.headings{
+    margin:55px 0;
 }
-
-.oranges {
-    background-image: url('img/farmer-540658_1920.jpg');
+div.dropdown-cities{
+    float:right;
+    margin-top:15px;
 }
+@media only screen and (max-width:767px){
+    div.dropdown-cities{float:left;}
+}
+div.navbar-collapse.collapse{float:left;}
+div.navbar-header{float:right;}
+a.btn.btn-primary{background:transparent; color:forestgreen; border:1px solid forestgreen;}
+a.btn.btn-primary:hover{background-color:forestgreen; color:#fff; border:1px solid forestgreen;}
 
 div.navbar-inverse{border-radius:0;}
 .logo{float:left;}

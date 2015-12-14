@@ -12,25 +12,10 @@
 </head>
 <body>
     
-        <div class="">
-            @*<div class="logo">
-                @Html.ActionLink("Organic Launch", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>*@         
-            <div class="banner" style="text-align:center;">
-                <ul>
-                    <li>
-                        <div class="cover-slides apples">
-                            <h1>Organic Launch</h1>
-                            <h2>We provide awareness for farmers</h2>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cover-slides oranges">
-                            <h1>Organic Launch</h1>
-                            <h2>Someting else</h2>
-                        </div>
-                    </li>
-                </ul>
+        <div class="jumbotron cover-slides">         
+            <div class="container headings">
+                <h1>Organic Launch</h1>
+                <h2>We provide awareness for farmers</h2>
             </div>  
         </div>
         <div class="navbar navbar-inverse">
@@ -55,6 +40,17 @@
                         <li><a href="#">Dairy</a></li>
                     </ul>
                 </div>
+                <div class="dropdown-cities">
+                    <select name="cities">
+                        <option value="value">Okanagan</option>
+                        <option value="value">Abbottsford</option>
+                        <option value="value">Richmond</option>
+                        <option value="value">Delta</option>
+                        <option value="value">White-Rock</option>
+                        <option value="value">Cloverdale</option>
+                        <option value="value">Springfield</option>
+                    </select>
+                </div>
             </div>
         </div>
         <div class="container body-content">
@@ -68,13 +64,13 @@
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/unslider-min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
-    <script>
+   <!--- <script>
         $(function () {
             $('.banner').unslider({
                 autoplay: true,
                 arrows: true
             })
         })
-    </script>
+    </script> -->
 </body>
 </html>
