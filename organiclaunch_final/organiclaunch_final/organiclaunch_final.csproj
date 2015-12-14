@@ -177,16 +177,16 @@
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Meat.cshtml" />
+    <Content Include="Views\Product\ProductCategories\MeatCategories.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Product\Produce.cshtml" />
     <Content Include="Views\Product\Meat.cshtml" />
-    <Content Include="Views\Home\Fruit.cshtml" />
-    <Content Include="Views\Home\Grocery.cshtml" />
-    <Content Include="Views\Home\Produce.cshtml" />
-    <Content Include="Views\Home\Vegetables.cshtml" />
+    <Content Include="Views\Product\ProductCategories\FruitCategories.cshtml" />
+    <Content Include="Views\Product\ProductCategories\GroceryCategories.cshtml" />
+    <Content Include="Views\Product\ProductCategories\ProduceCategories.cshtml" />
+    <Content Include="Views\Product\ProductCategories\VegetableCategories.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\EmployeeArea.cshtml" />
@@ -200,6 +200,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Views\Home\" />
     <Folder Include="Views\LocalOrganic\" />
   </ItemGroup>
   <ItemGroup>
