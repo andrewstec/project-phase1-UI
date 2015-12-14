@@ -127,6 +127,7 @@
       <DependentUpon>LocalOrganic.edmx</DependentUpon>
       <LastGenOutput>LocalOrganic.cs</LastGenOutput>
     </Content>
+    <Content Include="App_Data\Admin, Employee, Customer GUIs.docx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -188,7 +189,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\LocalOrganic\" />
   </ItemGroup>
