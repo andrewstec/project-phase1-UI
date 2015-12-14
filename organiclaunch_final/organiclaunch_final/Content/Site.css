@@ -26,3 +26,7 @@ textarea {
     max-width: 280px;
 }
 
+div.container p,
+div.container h2,
+div.container h1{text-align:center;}
+
