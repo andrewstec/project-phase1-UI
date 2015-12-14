@@ -14,6 +14,15 @@ div.cover-slides {
 div.headings{
     margin:55px 0;
 }
+div.dropdown-cities{
+    float:right;
+    margin-top:15px;
+}
+@media only screen and (max-width:767px){
+    div.dropdown-cities{float:left;}
+}
+div.navbar-collapse.collapse{float:left;}
+div.navbar-header{float:right;}
 a.btn.btn-primary{background:transparent; color:forestgreen; border:1px solid forestgreen;}
 a.btn.btn-primary:hover{background-color:forestgreen; color:#fff; border:1px solid forestgreen;}
 
