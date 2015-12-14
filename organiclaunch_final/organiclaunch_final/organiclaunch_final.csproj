@@ -82,13 +82,22 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\2698AF98D3.jpg" />
+    <Content Include="Content\img\CFBFE8F090.jpg" />
+    <Content Include="Content\img\D54AEFD8E6.jpg" />
+    <Content Include="Content\img\D7F9292D60.jpg" />
+    <Content Include="Content\img\D89ESH3WK7.jpg" />
     <Content Include="Content\img\farmer-540658_1920.jpg" />
+    <Content Include="Content\img\HRVOVU93ZA.jpg" />
+    <Content Include="Content\img\L8XDQ7077F.jpg" />
     <Content Include="Content\img\organic-farm-icons.png" />
     <Content Include="Content\img\organic-farm-icons_eggs.png" />
     <Content Include="Content\img\organic-farm-icons_milk.png" />
     <Content Include="Content\img\organic-farm-icons_prod.png" />
     <Content Include="Content\img\organic-farm-icons_pum.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\unslider-dots.css" />
+    <Content Include="Content\unslider.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -97,6 +106,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\unslider-min.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Product\Index.cshtml" />
@@ -119,6 +129,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Views\Product\Produce.cshtml" />
+    <Content Include="Views\Product\Meat.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
