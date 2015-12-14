@@ -1,6 +1,9 @@
 ﻿body {
 }
-
+img{
+    max-width:100%;
+    height:auto;
+}
 .cover-slides {
     margin-bottom: 0;
     background-size: cover;
