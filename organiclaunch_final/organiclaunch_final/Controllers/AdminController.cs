@@ -13,5 +13,10 @@ namespace organiclaunch_final.Controllers
         {
             return View();
         }
+
+        public ActionResult AdminArea()
+        {
+            return View();
+        }
     }
 }

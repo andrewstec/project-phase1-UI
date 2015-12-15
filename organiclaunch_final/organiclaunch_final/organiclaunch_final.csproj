@@ -103,7 +103,9 @@
     <Content Include="Content\img\organic-farm-icons_milk.png" />
     <Content Include="Content\img\organic-farm-icons_prod.png" />
     <Content Include="Content\img\organic-farm-icons_pum.png" />
+    <Content Include="Content\js\tabs.js" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\tab-css\tabs.css" />
     <Content Include="Content\unslider-dots.css" />
     <Content Include="Content\unslider.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
