@@ -25,8 +25,20 @@ div.headings{
 }
 div.dropdown-cities{
     float:right;
-    margin-top:15px;
+    margin-top:7px;
 }
+
+select.cities {
+   background: rgba(171, 172, 148, 0.87);
+   width: 176px;
+   padding: 3px;
+   font-size: 1em;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   color:#efefef;
+   }
 @media only screen and (max-width:767px){
     div.dropdown-cities{float:left;}
 }
@@ -35,7 +47,10 @@ div.navbar-header{float:right;}
 a.btn.btn-primary{background:transparent; color:forestgreen; border:1px solid forestgreen;}
 a.btn.btn-primary:hover{background-color:forestgreen; color:#fff; border:1px solid forestgreen;}
 
-div.navbar-inverse{border-radius:0;}
+div.navbar-inverse .navbar-nav>li>a{color:#fff;}
+div.navbar-inverse .navbar-nav>li>a:hover{color:#999;}
+
+div.navbar-inverse{border:0; background: rgba(64, 60, 22, 0.90);}
 .logo{float:left;}
 img{max-width:100%; height:auto;}
 
