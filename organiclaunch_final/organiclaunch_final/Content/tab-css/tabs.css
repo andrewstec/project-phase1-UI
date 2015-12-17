@@ -15,7 +15,7 @@
 #generic-tabs ul li a {text-align:center; display:block; font-size: 1.2em; text-decoration: none; padding: 1.2em 1em; line-height: 16px; color:#BBBBBB;}
 
 /*Active tab styles*/
-#generic-tabs ul li.active {background:#FFFFFF; border-top:4px solid #27ae60;}
+#generic-tabs ul li.active {background:#FFFFFF; border-top:4px solid rgba(146, 151, 36, 0.92);}
 #generic-tabs ul li.active a { color:#333333;}
 #generic-tabs ul li.active a i {color:#27ae60;}
 
