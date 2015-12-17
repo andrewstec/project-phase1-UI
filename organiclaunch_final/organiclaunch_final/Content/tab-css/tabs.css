@@ -7,7 +7,7 @@
 
 /*Tab styles*/
 #generic-tabs ul { overflow: hidden; margin:0; padding:0;}
-#generic-tabs ul li{ float:left; display:inline-block; width:25%; background:#EDEDED; border-top:4px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+#generic-tabs ul li{ float:left; display:inline-block; width:33%; background:#EDEDED; border-top:4px solid #CCCCCC; border-right:1px solid #CCCCCC;}
 #generic-tabs ul li:last-child {border-right:none;}
 #generic-tabs ul li:first-child { padding-left:0; }
 

@@ -9,7 +9,8 @@ div.cover-slides {
     background-image: url('img/L8XDQ7077F.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 700px;
+    background-position-y: -160px;
 }
 div.headings{
     margin:55px 0;
@@ -47,3 +48,34 @@ div.container p,
 div.container h2,
 div.container h1{text-align:center;}
 
+div section nav{
+    position: static;
+    margin-top: 30px;
+    width: 228px;
+}
+div .nav-container nav p{
+    border: 0 #eee solid;
+    text-align:left;
+    background: #eee;
+}
+div section nav p a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color:#333;
+}
+@media only screen and (max-width:767px){
+    div section nav{
+        position: static;
+        margin-top: 30px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    div section nav p,div section nav p a{
+        display:inline;
+    }
+    section#generic-tabs ul li a{
+        font-size: 1em;
+        padding: 1em 0;
+    }
+}
