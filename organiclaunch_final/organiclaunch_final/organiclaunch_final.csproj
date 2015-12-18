@@ -214,14 +214,14 @@
     <Content Include="Views\Product\BakeryCategories.cshtml" />
     <Content Include="Views\Product\GroceryCategories.cshtml" />
     <Content Include="Views\Product\ProduceCategories.cshtml" />
-    <Content Include="Views\Product\VegetableCategories.cshtml" />
+    <None Include="Views\Product\VegetableCategories.cshtml_removed" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\EmployeeArea.cshtml" />
     <Content Include="Views\Admin\AdminArea.cshtml" />
     <Content Include="Meat.cshtml" />
     <Content Include="Views\Product\ProduceListing.cshtml" />
-    <Content Include="Views\Product\VegetableListing.cshtml" />
+    <None Include="Views\Product\VegetableListing.cshtml_remove" />
     <Content Include="Views\Product\Grocery.cshtml" />
     <Content Include="Views\Product\Bakery.cshtml" />
     <Content Include="Views\Product\Produce.cshtml" />

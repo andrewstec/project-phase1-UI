@@ -79,6 +79,10 @@ namespace organiclaunch_final.Controllers
         {
             return View();
         }
+        public ActionResult MeatListing()
+        {
+            return View();
+        }
 
     }
 }
