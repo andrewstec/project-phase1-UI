@@ -24,5 +24,16 @@ namespace organiclaunch_final.Controllers
         {
             return View();
         }
+
+        public ActionResult Bakery()
+        {
+            return View();
+        }
+
+        public ActionResult Grocery()
+        {
+            return View();
+        }
+
     }
 }

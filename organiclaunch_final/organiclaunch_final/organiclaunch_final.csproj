@@ -183,7 +183,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Views\Product\Produce.cshtml" />
     <Content Include="Views\Product\Meat.cshtml" />
     <Content Include="Views\Product\ProductCategories\FruitCategories.cshtml" />
     <Content Include="Views\Product\ProductCategories\GroceryCategories.cshtml" />
@@ -193,6 +192,14 @@
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\EmployeeArea.cshtml" />
     <Content Include="Views\Admin\AdminArea.cshtml" />
+    <Content Include="Views\Product\Listings\Fruit.cshtml" />
+    <Content Include="Views\Product\Listings\Grocery.cshtml" />
+    <Content Include="Views\Product\Listings\Meat.cshtml" />
+    <Content Include="Views\Product\Listings\Produce.cshtml" />
+    <Content Include="Views\Product\Listings\Vegetable.cshtml" />
+    <Content Include="Views\Product\Grocery.cshtml" />
+    <Content Include="Views\Product\Bakery.cshtml" />
+    <Content Include="Views\Product\Produce.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
