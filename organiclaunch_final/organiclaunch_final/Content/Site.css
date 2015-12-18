@@ -55,12 +55,10 @@ table.table tbody>tr>td,
 table.table tfoot>tr>td{
     padding:10px 20px;
 }
-table.table th, .table td { 
+table.listing-table th, .listing-table td { 
      border: none !important; 
  }
-table td, table tr {
-    border: none !important;
-}
+
 @media only screen and (max-width:767px){
     table.table th,
     table.table td{
