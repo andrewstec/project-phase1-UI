@@ -52,10 +52,10 @@ table.table tfoot>tr>td{
     padding:10px 20px;
 }
 table.table th, .table td { 
-     border-top: none !important; 
+     border: none !important; 
  }
 table td, table tr {
-    border-top: none !important;
+    border: none !important;
 }
 
 select.cities {
