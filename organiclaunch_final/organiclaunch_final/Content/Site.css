@@ -43,6 +43,10 @@ div.dropdown-cities{
    height: 34px;
    color:#efefef;
 }
+thead.top_category{
+    background: #302D19;
+    color: #fff;
+}
 table.table thead>tr>th, 
 table.table tbody>tr>th, 
 table.table tfoot>tr>th, 
@@ -56,6 +60,12 @@ table.table th, .table td {
  }
 table td, table tr {
     border: none !important;
+}
+@media only screen and (max-width:767px){
+    table.table th,
+    table.table td{
+        display:block;
+    }
 }
 
 select.cities {
