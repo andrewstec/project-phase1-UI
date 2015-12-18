@@ -28,6 +28,9 @@ div.dropdown-cities{
     margin-top:7px;
 }
 
+.top_category {
+    font-weight: 900;
+}
 
 .search {
        background: rgba(171, 172, 148, 0.87);
