@@ -219,8 +219,6 @@
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\EmployeeArea.cshtml" />
     <Content Include="Views\Admin\AdminArea.cshtml" />
-    <Content Include="Views\Product\BakeryListing.cshtml" />
-    <Content Include="Views\Product\GroceryListing.cshtml" />
     <Content Include="Meat.cshtml" />
     <Content Include="Views\Product\ProduceListing.cshtml" />
     <Content Include="Views\Product\VegetableListing.cshtml" />
@@ -229,6 +227,9 @@
     <Content Include="Views\Product\Produce.cshtml" />
     <Content Include="Views\Product\FruitCategories - Copy.cshtml" />
     <Content Include="Views\Product\FruitListing.cshtml" />
+    <Content Include="Views\Product\MeatListing.cshtml" />
+    <Content Include="Views\Product\GroceryListing.cshtml" />
+    <Content Include="Views\Product\BakeryListing.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
