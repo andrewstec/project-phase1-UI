@@ -33,7 +33,7 @@ div.dropdown-cities{
 }
 
 .search {
-       background: rgba(171, 172, 148, 0.87);
+   background: rgba(171, 172, 148, 0.87);
    width: 176px;
    padding: 3px;
    font-size: 1em;
@@ -42,6 +42,20 @@ div.dropdown-cities{
    border-radius: 0;
    height: 34px;
    color:#efefef;
+}
+table.table thead>tr>th, 
+table.table tbody>tr>th, 
+table.table tfoot>tr>th, 
+table.table thead>tr>td, 
+table.table tbody>tr>td, 
+table.table tfoot>tr>td{
+    padding:10px 20px;
+}
+table.table th, .table td { 
+     border-top: none !important; 
+ }
+table td, table tr {
+    border-top: none !important;
 }
 
 select.cities {
