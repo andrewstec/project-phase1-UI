@@ -35,5 +35,50 @@ namespace organiclaunch_final.Controllers
             return View();
         }
 
+        public ActionResult BakeryCategories()
+        {
+            return View();
+        }
+        public ActionResult FruitCategories()
+        {
+            return View();
+        }
+        public ActionResult GroceryCategories()
+        {
+            return View();
+        }
+        public ActionResult MeatCategories()
+        {
+            return View();
+        }
+        public ActionResult ProduceCategories()
+        {
+            return View();
+        }
+        public ActionResult VegetableCategories()
+        {
+            return View();
+        }
+        public ActionResult ProduceListing()
+        {
+            return View();
+        }
+        public ActionResult BakeryListing()
+        {
+            return View();
+        }
+        public ActionResult GroceryListing()
+        {
+            return View();
+        }
+        public ActionResult FruitListing()
+        {
+            return View();
+        }
+        public ActionResult VegetableListing()
+        {
+            return View();
+        }
+
     }
 }
